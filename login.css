@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(15, 107, 150);
+}
+.log{
+    background-color: #fff;
+    text-align: center;
+    border-style: solid;
+    margin:15% 35% 15% 35%;
+}
+.box3{
+    padding: 0 0 2% 0;
+}
+.box4{
+    padding: 0 0 2% 0;
+}
+
+.but3 button{
+    border-radius: 20px;
+    background-color: rgb(174, 136, 171);
+    color:rgb(8, 8, 9);
+}
+.but4 button{
+    border-radius: 20px;
+    background-color: rgb(174, 136, 171);
+    color:rgb(8, 8, 9);
+}
