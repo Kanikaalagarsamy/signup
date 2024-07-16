@@ -25,9 +25,14 @@ body{
     background-color: rgb(174, 136, 171);
     color:rgb(8, 8, 9);
 }
-@media only screen and(maxwidth:"600px"){
-    .sign .box1 .con-password .but1 button .but2 button   {
-        flex-direction:column;
+@media only screen and (max-width: 600px) {
+    .sign {
+        margin:5% 5%;
     }
     
+    .but1 button, .but2 button {
+        display: block;
+        width: 35%;
+        margin-left: 35%; /* Make buttons full width */
+    }
 }
