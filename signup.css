@@ -5,6 +5,7 @@ body{
     background: #fff;
     text-align: center;
     border-style: solid;
+    border-radius: 35px;
     margin:15% 35% 15% 35%;
 }
 
@@ -13,7 +14,7 @@ body{
     
 }
 .con-password{
-    padding: 2% 0 2% 0;
+    padding: 2% 0 3% 0;
 }
 .but1 button{
     border-radius: 20px;
