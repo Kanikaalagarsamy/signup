@@ -1,4 +1,3 @@
-@media only screen and(max-width:600px){
 body{
     background-color: rgb(15, 107, 150);
 }
@@ -8,8 +7,10 @@ body{
     border-style: solid;
     margin:15% 35% 15% 35%;
 }
+
 .box1{
     padding: 0 0 2% 0;
+    
 }
 .con-password{
     padding: 2% 0 2% 0;
@@ -24,4 +25,9 @@ body{
     background-color: rgb(174, 136, 171);
     color:rgb(8, 8, 9);
 }
+@media only screen and(maxwidth:"600px"){
+    .sign .box1 .con-password .but1 button .but2 button   {
+        flex-direction:column;
+    }
+    
 }
